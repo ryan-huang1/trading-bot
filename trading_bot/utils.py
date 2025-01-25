@@ -4,8 +4,9 @@ import logging
 
 import pandas as pd
 import numpy as np
-
-import keras.backend as K
+import tensorflow as tf
+from tensorflow import keras
+K = keras.backend
 
 
 # Formats Position
